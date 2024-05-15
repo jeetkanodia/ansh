@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "SomarRegular";
+  src: local("SomarRegular"), url("./assets/fonts/Somar-Regular.ttf") format("truetype");
+  font-weight: normal;
+
+}
+
+@font-face {
+  font-family: "SomarBold";
+  src: local("SomarBold"), url("./assets/fonts/Somar-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SomarSemiBold";
+  src: local("SomarSemiBold"), url("./assets/fonts/Somar-SemiBold.otf") format("opentype");
+}
+
+* {
+  font-family: "SomarRegular";
+}
+
+.SomarSemiBold {
+  font-family: "SomarSemiBold";
+}
+
+.SdomarBold {
+  font-family: "SomarBold";
+}
