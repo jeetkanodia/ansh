@@ -1,12 +1,13 @@
 import React from "react";
 
-const Box = ({ idx, title, text1, text2, color = "50907F" }) => {
+const Box = ({ idx, title, text1, text2, color }) => {
   return (
     <div className="flex my-12 mb-16 mx-32 m-auto h-52 w-[30%]">
       <h1 className="text-6xl SomarSemiBold text-[#154466]">0{idx} </h1>
       <div>
         <p
-          className={`w-24 mt-[-0.5rem] ml-4  h-[6px] bg-[#${color}]  border-0 md:my-10`}
+          style={{ backgroundColor: color }}
+          className={`w-24 mt-[-0.5rem] ml-4  h-[6px] border-0 md:my-10`}
         />
         <p className="text-2xl text-[#124566] pl-4 mt-[-1.5rem] font-semibold uppercase">
           {title}

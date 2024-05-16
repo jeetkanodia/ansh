@@ -8,7 +8,7 @@ const BoxData = [
     text1:
       "Managing the company and defining its direction to achieve key objectives.",
     text2: " Delegating specific tasks to one of his members or others.",
-    color: "124566",
+    color: "#124566",
   },
   {
     idx: 2,
@@ -16,7 +16,7 @@ const BoxData = [
     text1:
       "Overseeing the company’s strategic plan, mission, vision, objectives, initiatives, and annual budget. ",
     text2: "Providing related recommendations to the BoD.",
-    color: "50907F",
+    color: "#50907f",
   },
 
   {
@@ -25,14 +25,14 @@ const BoxData = [
     text1: "Supervising the N&R processes as well as the succession plan.",
     text2:
       " Offering recommendations to the BoD related to compensations and board membership policies.",
-    color: "3C729C",
+    color: "#3C729C",
   },
   {
     idx: 4,
     title: "Audit Committee",
     text1: "Monitoring the company’s financial.",
     text2: " Ensure the effectiveness and efficiency of auditing tools.",
-    color: "C2AB80",
+    color: "#C2AB80",
   },
 ];
 const Mid = () => {
