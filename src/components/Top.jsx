@@ -19,7 +19,7 @@ const Top = () => {
       </div>
       <div className="lg:hidden">
         <div className="flex">
-          <p className="text-3xl m-4 mt-12 text-[#124566] SomarSemiBold ">
+          <p className="text-2xl m-4 mt-12 text-[#124566] SomarSemiBold ">
             CHAIRMAN MESSAGE
           </p>
           <div className="w-20 mt-20 ml-1 h-[5px] bg-[#C2AB80] border-0 md:my-10"></div>
