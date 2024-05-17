@@ -36,7 +36,7 @@
   background: linear-gradient(to bottom, white 0%, white 40%, #F5F4F4 60%, #F5F4F4 100%);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
 
   /* Your CSS code for screens larger than iPad goes here */
   .halfandhalf {
