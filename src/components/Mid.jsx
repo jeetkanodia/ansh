@@ -68,7 +68,7 @@ const Mid = () => {
       </div>
       <div className="w-[20%] flex self-end">
         <img
-          className="self-end w-auto pr-0 ml-[100px] hidden lg:block"
+          className="self-end w-auto pr-0 ml-[100px] mb-[560px] hidden lg:block"
           src={design2}
           alt="design2"
         />
