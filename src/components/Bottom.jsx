@@ -13,7 +13,7 @@ const Bottom = () => {
         impact
       </p>
 
-      <div className="mt-4 sm:ml-[7%]">
+      <div className="mt-4 lg:ml-[7%] sm:ml-[7%]">
         <Sliderr />
       </div>
 
