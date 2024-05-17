@@ -4,15 +4,15 @@ import design1 from "../assets/design1.png";
 import person1 from "../assets/person1.png";
 const Top = () => {
   return (
-    <div className="min-h-screen w-full">
-      <div className="h-30vh w-full overflow-hidden">
+    <div className="min-h-screen w-auto">
+      <div className="h-30vh w-auto overflow-hidden">
         <p
           style={{
             backgroundImage: `url(${mainBg})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
-          className="text-white h-30vh w-full bg-cover bg-center bg-no-repeat pt-[40vh] pb-[10vh] text-7xl SomarSemiBold pl-[19vh]"
+          className="text-white h-30vh w-auto bg-cover bg-center bg-no-repeat pt-[40vh] pb-[10vh] text-7xl SomarSemiBold pl-[19vh]"
         >
           Our Leadership
         </p>

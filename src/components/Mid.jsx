@@ -37,7 +37,7 @@ const BoxData = [
 ];
 const Mid = () => {
   return (
-    <div className="min-h-screen w-full">
+    <div className="min-h-screen w-auto">
       <div className="flex mt-20">
         <div className="w-[80%]">
           <div className="flex">
@@ -68,7 +68,7 @@ const Mid = () => {
         </div>
         <div className="w-[20%] flex self-end">
           <img
-            className="self-end w-full pr-0 mr-[-10px]"
+            className="self-end w-auto pr-0 mr-[-10px]"
             src={design2}
             alt="design2"
           />

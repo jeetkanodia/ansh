@@ -2,7 +2,7 @@ import React from "react";
 import person2 from "../assets/person2.png";
 const Banner = () => {
   return (
-    <section className="w-full flex flex-col mt-56 items-center justify-center halfandhalf lg:flex-row">
+    <section className="w-auto flex flex-col mt-56 items-center justify-center halfandhalf lg:flex-row">
       <div className="text-left pl-10">
         <h1 className="SomarSemiBold text-[#C2AB80] text-4xl uppercase ">
           inspired to serve our partners & community
