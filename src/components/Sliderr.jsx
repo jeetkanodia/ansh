@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
 import slider1 from "../assets/slider1.png";
+import slider2 from "../assets/slider2.png";
+import slider3 from "../assets/slider3.png";
+import ArrowLeft from "./ArrowLeft";
+import ArrowRight from "./ArrowRight";
 const data = [
   {
     id: 1,
@@ -33,23 +36,28 @@ const data = [
     sub: "Chief Executive Officer",
     desc: "Hassan has been the Executive Vice President of Operations at RHC since 2014. He has 20+ years of experience; he joined the company in 2002 as Director of Marketing and Public Relations. His previous experience was in the field of Marketing and Public Relations at Al-Hayat Newspaper and Wirily Wireless Company.",
   },
+  {
+    id: 5,
+    img: slider1,
+    title: "Hasaan AlQurashi",
+    sub: "Chief Executive Officer",
+    desc: "Hassan has been the Executive Vice President of Operations at RHC since 2014. He has 20+ years of experience; he joined the company in 2002 as Director of Marketing and Public Relations. His previous experience was in the field of Marketing and Public Relations at Al-Hayat Newspaper and Wirily Wireless Company.",
+  },
 ];
 
 const Sliderr = () => {
   const [imageIndex, setImageIndex] = useState(1);
   var settings = {
-    dots: false,
     speed: 200,
-    initialSlide: 0,
-    className: "center",
-    // nextArrow: <NextArrow />,
-    // prevArrow: <PrevArrow />,
+    initialSlide: 2,
+    //className: "center",
+    // nextArrow: <ArrowRight />,
+    // prevArrow: <ArrowLeft />,
+    //infinite: false,
     centerMode: true,
-
-    centerPadding: "60px",
     focusOnSelect: true,
-    infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 4,
+    centerPadding: "0%",
     beforeChange: (current, next) => {
       console.log(current);
       setImageIndex(next);
@@ -58,8 +66,16 @@ const Sliderr = () => {
       {
         breakpoint: 1024,
         settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          centerPadding: "5%",
         },
       },
       {
@@ -67,13 +83,7 @@ const Sliderr = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          centerPadding: "10%",
         },
       },
     ],

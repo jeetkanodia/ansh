@@ -17,7 +17,6 @@ const Banner = () => {
         <p className="text-[#124566] mt-6 uppercase font-semibold   ">
           Assim AlSuhaibani <br /> CEO, Riyadh Holding Company
         </p>
-        d
       </div>
       <div>
         <img src={person2} alt="person2" />
