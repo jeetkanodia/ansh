@@ -39,7 +39,7 @@ const Top = () => {
             <p className="text-5xl text-[#124566] SomarSemiBold ">
               CHAIRMAN MESSAGE
             </p>
-            <div className="w-20 mt-[-1rem] ml-4 h-[5px] bg-[#C2AB80] border-0 md:my-10"></div>
+            <div className="w-20 mt-10 ml-4 h-[5px] bg-[#C2AB80] border-0 md:my-10"></div>
           </div>
           <p className="text-xl lg:text-2xl text-[#124566] pt-16 lg:pt-10vh pl-4 mr-4 lg:pl-0 lg:mr-30">
             “Riyadh Holding Company (RHC) has been instrumental in regenerating
