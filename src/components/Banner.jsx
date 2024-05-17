@@ -2,7 +2,7 @@ import React from "react";
 import person2 from "../assets/person2.png";
 const Banner = () => {
   return (
-    <section className="w-auto flex flex-col mt-10 lg:mt-52 items-center justify-center halfandhalf lg:flex-row">
+    <section className="w-auto flex flex-col mt-10 lg:mt-52 items-center justify-center halfandhalf lg:flex-row lg:h-[400px]">
       <div className="text-left pl-5">
         <h1 className="SomarSemiBold text-[#C2AB80] text-4xl uppercase lg:ml-[10%] lg:max-w-[60%] lg:mt-10">
           inspired to serve our partners & community
@@ -18,8 +18,8 @@ const Banner = () => {
           Assim AlSuhaibani <br /> CEO, Riyadh Holding Company
         </p>
       </div>
-      <div className="lg:h-[200%] lg:mb-0">
-        <img className="lg:mb-0" src={person2} alt="person2" />
+      <div className="lg:w-1/2 lg:h-[400px]">
+        <img className="lg:h-[400px] w-auto" src={person2} alt="person2" />
       </div>
     </section>
   );

@@ -11,36 +11,22 @@ const data = [
   {
     id: 1,
     img: slider1,
-    title: "Hasaan AlQurashi",
-    sub: "Chief Executive Officer",
+    title: "Ahmed AlNaeem",
+    sub: "Chief Strategy and Investment Officer ",
     desc: "Hassan has been the Executive Vice President of Operations at RHC since 2014. He has 20+ years of experience; he joined the company in 2002 as Director of Marketing and Public Relations. His previous experience was in the field of Marketing and Public Relations at Al-Hayat Newspaper and Wirily Wireless Company.",
   },
   {
     id: 2,
-    img: slider1,
+    img: slider2,
     title: "Hasaan AlQurashi",
     sub: "Chief Executive Officer",
     desc: "Hassan has been the Executive Vice President of Operations at RHC since 2014. He has 20+ years of experience; he joined the company in 2002 as Director of Marketing and Public Relations. His previous experience was in the field of Marketing and Public Relations at Al-Hayat Newspaper and Wirily Wireless Company.",
   },
   {
     id: 3,
-    img: slider1,
-    title: "Hasaan AlQurashi",
-    sub: "Chief Executive Officer",
-    desc: "Hassan has been the Executive Vice President of Operations at RHC since 2014. He has 20+ years of experience; he joined the company in 2002 as Director of Marketing and Public Relations. His previous experience was in the field of Marketing and Public Relations at Al-Hayat Newspaper and Wirily Wireless Company.",
-  },
-  {
-    id: 4,
-    img: slider1,
-    title: "Hasaan AlQurashi",
-    sub: "Chief Executive Officer",
-    desc: "Hassan has been the Executive Vice President of Operations at RHC since 2014. He has 20+ years of experience; he joined the company in 2002 as Director of Marketing and Public Relations. His previous experience was in the field of Marketing and Public Relations at Al-Hayat Newspaper and Wirily Wireless Company.",
-  },
-  {
-    id: 5,
-    img: slider1,
-    title: "Hasaan AlQurashi",
-    sub: "Chief Executive Officer",
+    img: slider3,
+    title: "Fahad AlZouman ",
+    sub: "Director of Finance ",
     desc: "Hassan has been the Executive Vice President of Operations at RHC since 2014. He has 20+ years of experience; he joined the company in 2002 as Director of Marketing and Public Relations. His previous experience was in the field of Marketing and Public Relations at Al-Hayat Newspaper and Wirily Wireless Company.",
   },
 ];
@@ -49,14 +35,14 @@ const Sliderr = () => {
   const [imageIndex, setImageIndex] = useState(1);
   var settings = {
     speed: 200,
-    initialSlide: 2,
+    initialSlide: 1,
     //className: "center",
-    // nextArrow: <ArrowRight />,
-    // prevArrow: <ArrowLeft />,
+    nextArrow: <ArrowRight />,
+    prevArrow: <ArrowLeft />,
     //infinite: false,
     centerMode: true,
     focusOnSelect: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     centerPadding: "0%",
     beforeChange: (current, next) => {
       console.log(current);
@@ -112,7 +98,7 @@ const SliderCard = ({ img, title, sub, desc, active }) => {
       <img
         src={img}
         alt="slider img"
-        className={`${active ? "w-[105%]" : " "}`}
+        className={` ${active ? "w-[105%]" : "w-[300px] h-[300px] "}`}
       />
       <h1 className="text-[#154466] SomarSemiBold text-xl mt-4">{title}</h1>
       <h3 className="text-[#154466] mt-2">{sub}</h3>

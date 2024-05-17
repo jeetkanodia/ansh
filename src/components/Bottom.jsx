@@ -16,6 +16,8 @@ const Bottom = () => {
       <div className="mt-4 sm:ml-[7%]">
         <Sliderr />
       </div>
+
+      <ArrowLeft />
       {/* <ArrowLeft />
       <ArrowRight/> */}
     </div>
