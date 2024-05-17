@@ -30,3 +30,8 @@
 .SomarBold {
   font-family: "SomarBold";
 }
+
+.halfandhalf {
+  min-width: 100%;
+  background: linear-gradient(to bottom, white 0%, white 40%, #F5F4F4 60%, #F5F4F4 100%);
+}
