@@ -3,7 +3,7 @@ import person2 from "../assets/person2.png";
 const Banner = () => {
   return (
     <section className="w-auto flex flex-col mt-10 lg:mt-52 items-center justify-center halfandhalf lg:flex-row">
-      <div className="text-left pl-10">
+      <div className="text-left pl-5">
         <h1 className="SomarSemiBold text-[#C2AB80] text-4xl uppercase lg:ml-[10%] lg:max-w-[60%] lg:mt-10">
           inspired to serve our partners & community
         </h1>

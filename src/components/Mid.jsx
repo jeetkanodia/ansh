@@ -14,24 +14,25 @@ const BoxData = [
     idx: 2,
     title: "Executive Committee",
     text1:
-      "Overseeing the company’s strategic plan, mission, vision, objectives, initiatives, and annual budget. ",
-    text2: "Providing related recommendations to the BoD.",
+      "Managing the company and defining its direction to achieve key objectives.",
+    text2: " Delegating specific tasks to one of his members or others.",
     color: "#50907f",
   },
 
   {
     idx: 3,
     title: "Nomination and Remuneration Committee",
-    text1: "Supervising the N&R processes as well as the succession plan.",
-    text2:
-      " Offering recommendations to the BoD related to compensations and board membership policies.",
+    text1:
+      "Managing the company and defining its direction to achieve key objectives.",
+    text2: " Delegating specific tasks to one of his members or others.",
     color: "#3C729C",
   },
   {
     idx: 4,
     title: "Audit Committee",
-    text1: "Monitoring the company’s financial.",
-    text2: " Ensure the effectiveness and efficiency of auditing tools.",
+    text1:
+      "Managing the company and defining its direction to achieve key objectives.",
+    text2: " Delegating specific tasks to one of his members or others.",
     color: "#C2AB80",
   },
 ];
@@ -40,18 +41,18 @@ const Mid = () => {
     <div className="min-h-screen w-auto flex mt-20">
       <div className="w-full lg:w-[80%]">
         <div className="flex">
-          <p className=" text-4xl lg:text-5xl text-[#C2AB80] w-full lg:w-[75%] leading-relaxed font-semibold uppercase ml-12 lg:mt-10 lg:ml-52">
+          <p className=" text-3xl lg:text-5xl text-[#C2AB80] w-full lg:w-[75%] leading-relaxed font-semibold uppercase ml-4 lg:mt-10 lg:ml-52">
             Committed to Integrity by Upholding Governance Standards through
             Responsible Leadership
           </p>
         </div>
-        <p className="text-xl lg:text-2xl text-[#154466] w-[80%] lg:w-[75%] ml-12 mt-5 mb-3 lg:mt-10 lg:ml-52">
+        <p className="text-xl lg:text-2xl text-[#154466] w-[90%] lg:w-[75%] ml-4 mt-5 mb-3 lg:mt-10 lg:ml-52">
           Four vital groups support and monitor our work. Our board of
           directors, executive committee, audit committee, and nomination and
           remuneration committee assure our integrity—one of our core values.
         </p>
 
-        <div className="flex justify-center items-center flex-wrap gap-28 xl:gap-42">
+        <div className="flex justify-center items-center flex-wrap mt-14  gap-14 lg:gap-28 xl:gap-42">
           {/* Add box component here */}
           {BoxData.map((data) => (
             <Box
