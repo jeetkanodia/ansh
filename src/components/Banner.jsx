@@ -14,7 +14,7 @@ const Banner = () => {
           by dedicated teams bringing ambitions to fruition, delighting in the
           growing positive impact on millions.”
         </p>
-        <p className="text-[#124566] mt-6 uppercase font-semibold  lg:ml-[10%] lg:max-w-[60%] lg:mb-10">
+        <p className="text-[#124566] mt-6 uppercase font-semibold  lg:ml-[10%] lg:max-w-[60%] mb-10">
           Assim AlSuhaibani <br /> CEO, Riyadh Holding Company
         </p>
       </div>
