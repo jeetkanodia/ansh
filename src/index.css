@@ -36,6 +36,14 @@
   background: linear-gradient(to bottom, white 0%, white 40%, #F5F4F4 60%, #F5F4F4 100%);
 }
 
+@media (min-width: 1024px) {
+
+  /* Your CSS code for screens larger than iPad goes here */
+  .halfandhalf {
+    background: #F5F4F4 100%;
+  }
+}
+
 body {
   overflow-x: hidden;
   width: 100%;

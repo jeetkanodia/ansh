@@ -4,7 +4,7 @@ import ArrowLeft from "./ArrowLeft";
 import ArrowRight from "./ArrowRight";
 const Bottom = () => {
   return (
-    <div className="mt-20 ">
+    <div className="mt-20 mb-16">
       <h1 className="text-xl uppercase text-[#124566] font-semibold ml-[9%]  sm:text-2xl sm:mb-10 ">
         Executive Team
       </h1>
